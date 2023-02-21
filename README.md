@@ -27,6 +27,7 @@ For more information, see https://pds-geosciences.wustl.edu/missions/mro/crism.h
       - [Case - specific scene or scenes](#Case---specific-scene-or-scenes)
       - [Case - global exploration](#Case---global-exploration)
   - [Display](#Display)
+  - [Classification](#Classification)
 
 
 #### *The Problem*
@@ -194,3 +195,34 @@ MapMineralPlanet.disp_scene_fig_web()
 ````  
 
 ![fig](https://user-images.githubusercontent.com/69158504/183451500-a297a82b-d2c6-4d43-bc5a-0230119e18e5.svg)  
+
+## Classification
+````ruby
+minerals = {'bassanite', ...
+            'jarosite',  ...
+            'serpentine', ...
+            'Nontronite',  ...
+            'Montmorillonite',  ...
+            'chlorite',  ...
+            'analcime',  ...
+            'calcite',  ...
+            'hematite',  ...
+            'gypsum',  ...
+            'kaolinite', ...
+            'magnesite'};
+                        
+[maps, fig, libData, original] = MapMineralPlanet.analyze_classified_minerals(n_endmembers = 3, minerals = minerals);
+````
+Or if it is the second time you classify with a saved `maps` variable:
+````ruby
+[~,    fig, libData, original] = MapMineralPlanet.analyze_classified_minerals(n_endmembers = 3, minerals = minerals, maps = maps);
+````
+
+![Classification_1502](https://user-images.githubusercontent.com/69158504/220322685-55d03ba5-82db-42e5-bd5f-a961f7976b69.svg)
+
+Then you can:
+````ruby
+fig_spec = MapMineralPlanet.spectralPicker(maps, libData = libData, fig = fig, n_refs = 5);
+````
+
+![fig_spec_C](https://user-images.githubusercontent.com/69158504/220322896-54eca7b3-7dd5-4f72-9026-62e0601e28cd.svg)
