@@ -211,11 +211,11 @@ minerals = {'bassanite', ...
             'kaolinite', ...
             'magnesite'};
                         
-[maps, fig, libData, original] = MapMineralPlanet.analyze_classified_minerals(n_endmembers = 3, minerals = minerals);
+[maps, fig, libData, original] = MapMineralPlanet.classify(n_endmembers = 3, minerals = minerals);
 ````
 Or if it is the second time you classify with a saved `maps` variable:
 ````ruby
-[~,    fig, libData, original] = MapMineralPlanet.analyze_classified_minerals(n_endmembers = 3, minerals = minerals, maps = maps);
+[~,    fig, libData, original] = MapMineralPlanet.classify(n_endmembers = 3, minerals = minerals, maps = maps);
 ````
 
 ![Classification_1502](https://user-images.githubusercontent.com/69158504/220322685-55d03ba5-82db-42e5-bd5f-a961f7976b69.svg)
