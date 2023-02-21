@@ -47,7 +47,8 @@ My state-of-the-art algorithm analyzes a single scene on its own **within a minu
 This algorithm could be used in other space scientific missions, such as ESA's Jupiter Icy Moons Explorer (JUICE).  
 This tool can also be applicable in future space mineral exploration, either for asteroid mining or for "in-situ resource utilization", which is the use of resources found on other planets and moons replacing resources that would otherwise be brought from Earth.  
   
-  
+![processing](https://user-images.githubusercontent.com/69158504/220324547-db733319-2e2c-41ae-9c8b-e112c45343e8.svg)
+
 ## Dependencies
 The code has been tested with MATLAB R2021a, R2022a on Windows 10 and Linux.  
 
