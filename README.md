@@ -1,6 +1,8 @@
 # MapMineralPlanet---README-Only
 Automated algorithm for global mineral mapping with Spaceborne Hyperspectral Imaging Processing - README Only
-This is only the README Demo for my private repo
+This is only the README Demo for my private repo.
+
+![Classification_1502](https://user-images.githubusercontent.com/69158504/220322685-55d03ba5-82db-42e5-bd5f-a961f7976b69.svg)
 
 # Abstract
 In my master's research, I addressed an intriguing question in planetary science: how could ancient Mars maintain a climate warm enough to support liquid water? I focused on the sulfur cycle hypothesis, testing the presence and implications of sulfur-bearing minerals on the Martian surface using advanced Hyperspectral Imaging Processing (HSI).
