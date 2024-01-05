@@ -2,6 +2,19 @@
 Automated algorithm for global mineral mapping with Spaceborne Hyperspectral Imaging Processing - README Only
 This is only the README Demo for my private repo
 
+# Abstract
+In my master's research, I addressed an intriguing question in planetary science: how could ancient Mars maintain a climate warm enough to support liquid water? I focused on the sulfur cycle hypothesis, testing the presence and implications of sulfur-bearing minerals on the Martian surface using advanced Hyperspectral Imaging Processing (HSI).
+
+Key Achievements:
+1.	Data Acquisition and Management:
+•	Innovated a robust 'search engine' to systematically access and retrieve Mars' hyperspectral satellite imagery from NASA's archives, enabling a comprehensive analysis of the entire planet.
+2.	Algorithm Development and Innovation:
+•	Pioneered the enhancement of hyperspectral imaging algorithms for sensitive and precise mineral detection. My work crucially resolved an algorithmic challenge persisting for over two decades in satellite hyperspectral imaging, significantly enhancing mineral exploration methodologies applicable to Mars and other planetary bodies.
+3.	Global Mineral Mapping and Analysis:
+•	Conducted an exhaustive application of the algorithms to map minerals globally across Mars. My approach was particularly focused on identifying spectral features of calcium sulfite, alongside existing and newly observed calcium sulfate minerals. This detailed mineral mapping was instrumental in testing and validating the sulfur cycle hypothesis, offering new perspectives on the planet's past environmental conditions.
+Note: Hyperspectral Imaging Processing (HSI) merges image and signal processing to analyze multidimensional data cubes, enriching our interpretation of planetary surfaces and atmospheres.
+
+Through this research, I not only contributed to our understanding of Mars but also advanced the field of hyperspectral imaging, demonstrating its potential in planetary science and beyond.
 
 # MapMineralPlanet  
 
@@ -31,7 +44,7 @@ For more information, see https://pds-geosciences.wustl.edu/missions/mro/crism.h
 
 
 #### *The Problem*
-To this day, "NASA's scientists" analyze each scene (satellite image) manually with **qualitative** assessments with Browse Products[^1]. Then, the spectral analysis was done with the Ratioing method to remove noise and artifacts and enhance the relevant spectral features. This method requires to use of a nearly neutral spectrum chosen **manually**  by the user from the same column of the **unprojected** image (e.g., Targeted Empirical Record (TER)), as the target (the numerator) spectrum was used as the denominator[^2][^3].  
+To this day, NASA's scientists analyze each scene (satellite image) manually with **qualitative** assessments with Browse Products[^1]. Then, the spectral analysis was done with the Ratioing method to remove noise and artifacts and enhance the relevant spectral features. This method requires to use of a nearly neutral spectrum chosen **manually**  by the user from the same column of the **unprojected** image (e.g., Targeted Empirical Record (TER)), as the target (the numerator) spectrum was used as the denominator[^2][^3].  
 [^2]: Murchie et al. (2007) Compact Reconnaissance Imaging Spectrometer for Mars (CRISM) on Mars Reconnaissance Orbiter (MRO) (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006JE002682)
 [^3]: Ehlmann et al. (2009) Identification of hydrated silicate minerals on Mars using MRO-CRISM: Geologic context near Nili Fossae and implications for aqueous alteration (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2009JE003339)
 
