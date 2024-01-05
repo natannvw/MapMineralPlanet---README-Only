@@ -5,15 +5,12 @@ This is only the README Demo for my private repo
 # Abstract
 In my master's research, I addressed an intriguing question in planetary science: how could ancient Mars maintain a climate warm enough to support liquid water? I focused on the sulfur cycle hypothesis, testing the presence and implications of sulfur-bearing minerals on the Martian surface using advanced Hyperspectral Imaging Processing (HSI).
 
-Key Achievements:
-1.	Data Acquisition and Management:
-
+**Key Achievements**:
+1.	**Data Acquisition and Management**:
 Innovated a robust 'search engine' to systematically access and retrieve Mars' hyperspectral satellite imagery from NASA's archives, enabling a comprehensive analysis of the entire planet.
 2.	Algorithm Development and Innovation:
-
 Pioneered the enhancement of hyperspectral imaging algorithms for sensitive and precise mineral detection. My work crucially resolved an algorithmic challenge persisting for over two decades in satellite hyperspectral imaging, significantly enhancing mineral exploration methodologies applicable to Mars and other planetary bodies.
 3.	Global Mineral Mapping and Analysis:
-
 Conducted an exhaustive application of the algorithms to map minerals globally across Mars. My approach was particularly focused on identifying spectral features of calcium sulfite, alongside existing and newly observed calcium sulfate minerals. This detailed mineral mapping was instrumental in testing and validating the sulfur cycle hypothesis, offering new perspectives on the planet's past environmental conditions.
 
 Note: Hyperspectral Imaging Processing (HSI) merges image and signal processing to analyze multidimensional data cubes, enriching our interpretation of planetary surfaces and atmospheres.
