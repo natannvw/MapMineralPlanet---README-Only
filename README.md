@@ -2,8 +2,14 @@
 
 *Author: **Nathan Weinstein***
 
-*Original research developed during M.Sc. studies at the Weizmann Institute of Science.*
-*Methods based on analysis of NASA PDS CRISM data from MRO.*
+*GitHub: **natannvw***
+
+*This repository provides public technical documentation for methods developed during
+M.Sc. research at the Weizmann Institute of Science, based on analysis of NASA Planetary
+Data System (PDS) CRISM data from the Mars Reconnaissance Orbiter (MRO).*
+
+*The underlying implementation is proprietary; this README documents the scientific
+context, data sources, and methodological foundations.*
 
 Automated algorithm for global mineral mapping with Spaceborne Hyperspectral Imaging Processing - README Only
 This is only the README Demo for my private repo.
