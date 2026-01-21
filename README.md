@@ -1,4 +1,10 @@
 # MapMineralPlanet---README-Only
+
+*Author: **Nathan Weinstein***
+
+*Original research developed during M.Sc. studies at the Weizmann Institute of Science.*
+*Methods based on analysis of NASA PDS CRISM data from MRO.*
+
 Automated algorithm for global mineral mapping with Spaceborne Hyperspectral Imaging Processing - README Only
 This is only the README Demo for my private repo.
 
